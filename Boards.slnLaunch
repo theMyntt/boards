@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Launch Web App",
+    "Projects": [
+      {
+        "Path": "src\\Boards.Api\\Boards.Api.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "src\\Boards.WebSite\\Boards.WebSite.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]
